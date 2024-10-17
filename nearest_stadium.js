@@ -340,7 +340,7 @@ function handleFormSubmit(event) {
             const near_stadiums = [];
 
             for(i = 0; i < 32; i++){
-                console.log(distances[i]);
+                // console.log(distances[i]);
                 if(distances[i][1] <= 150){
                     console.log(distances[i][0]);
                     near_stadiums.push(distances[i][0]);
